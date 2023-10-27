@@ -1,0 +1,29 @@
+.claseRegistro {
+  background: rgb(106, 0, 255);
+  background: linear-gradient(
+    90deg,
+    rgba(106, 0, 255, 1) 0%,
+    rgba(166, 74, 255, 1) 88%,
+    rgba(189, 90, 255, 1) 100%
+  );
+  text-align: center;
+  color: #ffffff;
+  padding: 2rem;
+  border-radius: 1rem;
+  height: 60vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.classSocialButton {
+  display: flex;
+  gap: 2rem;
+  justify-content: center;
+}
+
+.claseIcono {
+  border: 1px solid white;
+  padding: 1rem;
+  border-radius: 50%;
+}
